@@ -10,9 +10,6 @@ class DVDSimulation
     using DVDpoint = std::pair<float, float>;
 public:
     // Default class constructor.
-    //
-    // param velocity: velocity by x and y
-    // param position: initial position of the object
     DVDSimulation(const DVDpoint& velocity, const DVDpoint& position)
        : m_LogoVelocity(velocity), m_LogoPosition(position)
     {
